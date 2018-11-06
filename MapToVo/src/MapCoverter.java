@@ -25,7 +25,7 @@ public class MapCoverter {
        String keyAttribute = null;
        String setMethodString = "set";
        String methodString = null;
-       Iterator itr = map.keySet().iterator();
+       Iterator<String> itr = map.keySet().iterator();
        
        while(itr.hasNext()){
            keyAttribute = (String) itr.next();
